@@ -1,0 +1,139 @@
+/* colors used in design:
+  linen: F4EAE3
+  copper: C9896D
+  brandy: 873632
+  redwood: AC5B45
+  melon: DFB6AA
+  fuzzy wuzzy: C97064
+*/
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #873632;
+  background-size: cover;
+}
+
+#home {
+  color: #DFB6AA;
+  text-shadow: 0 0 20px black;
+  text-align: center;
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#home:after {
+  content: "";
+  background-image: url("https://images.unsplash.com/photo-1581588577800-b355befb3868?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+#home h1 {
+  font-family: Didot; Perpetua; serif;
+  font-size: 72px;
+}
+#home p {
+  font-family: Avenir; Optima; sans-serif;
+  font-size: 24px;
+}
+
+#intro {
+  background-color: #AC5B45;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  min-height: 400px;
+}
+#intro h1 {
+  color: #F4EAE3;
+  font-family: Didot; Perpetua; serif;
+  font-size: 72px;
+  text-shadow: 0 0 10px black;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-top: 100px;
+  width: 50%;
+  z-index: 2;
+  text-align: center;
+}
+#intro p {
+  color: #F4EAE3;
+  font-family: Avenir; Optima; sans-serif;
+  padding-right: 100px;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 50%;
+}
+img {
+  opacity: 50%;
+  width: 240px;
+  height: 320px;
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 10%;
+}
+#learn {
+  background-color: #DFB6AA;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+#learn h4 {
+  color: #873632;
+  font-family: Didot; Perpetua; serif;
+  font-size: 36px;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 50%;
+  text-align: center;
+}
+
+ul {
+  color: #873632;
+  list-style-type: none;
+  height: 50px;
+  padding-right: 100px;
+  padding-left: 50px;
+  padding-top: 20px;
+  width: 50%;
+}
+ul a {
+  color: #873632;
+}
+
+nav {
+  background: #F4EAE3;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+nav a {
+  color: #873632;
+  font-family: Avenir; Optima; sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  padding: 40px;
+}
+a {
+  color: #F4EAE3;
+  font-family: Avenir; Optima; sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+a:hover {
+  color: #C97064;
+  cursor: pointer;
+}
+p caption {
+  color: white;
+  font-size: 30px
+}
